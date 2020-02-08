@@ -9,7 +9,7 @@ compared to the utility of consumption.
 #------------------------------------------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
-
+#------------------------------------------------------------------------------
 def BF(theta, gamma, lumbda, array_rf):
     #Consumption growth function
     g = np.array([np.exp(0.02 + 0.02 * np.random.normal()) 
