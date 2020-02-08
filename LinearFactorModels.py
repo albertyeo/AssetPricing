@@ -1,5 +1,10 @@
 #Linear Factor Models
 
+'''
+Calculation of alpha, beta, and coefficient of determination and plot of SML
+based on returns data. The models used are Market Model, CAPM, Fama-French 
+3-Factor Model, and Carhart 4-Factor Model
+'''
 #------------------------------------------------------------------------------
 import pandas as pd
 import numpy as np
@@ -90,7 +95,7 @@ def FF3Factor(data_portfolio, array_rf, data_market, data_smb, data_hml):
     
     return FF_table
 #------------------------------------------------------------------------------
-#Carhart Factor Model
+#Carhart 4-Factor Model
 def Carhart(data_portfolio, array_rf, data_market, data_smb, data_hml, data_umd):    
     #Carhart 4-Factor Model
     data_factors = pd.DataFrame((data_market-array_rf).values, 
