@@ -4,7 +4,7 @@
 Santos (2001) economy to calculate the price-dividend ratio for market 
 portfolio and expected market return. The results are plotted against the 
 amount of emphasis that investor puts on utility from financial gain or loss, 
-compared to the utility of consumption.
+compared to the utility of consumption
 '''
 #------------------------------------------------------------------------------
 import numpy as np
